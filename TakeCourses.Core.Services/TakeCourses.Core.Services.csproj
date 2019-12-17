@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TakeCourses.Core.Contracts\TakeCourses.Core.Contracts.csproj" />
+    <ProjectReference Include="..\TakeCourses.Core.Entities\TakeCourses.Core.Entities.csproj" />
+    <ProjectReference Include="..\TakeCourses.Core.InfraStructures.Tools\TakeCourses.Core.InfraStructures.Tools.csproj" />
+  </ItemGroup>
+
+</Project>
